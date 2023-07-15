@@ -1,0 +1,138 @@
+
+
+h1{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    margin-top: 20%;
+    color: hsl(0, 0%, 8%);
+
+}
+
+
+.lead {
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.labels {
+    display: flex;
+    margin-top: 90px;
+    gap: 35px;
+}
+
+
+
+
+
+@media (max-width: 375px){
+
+    .remote-work-text {
+        display: none;
+    }
+
+    h1 {
+        display: block;
+        font-size: 35px;
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .lead{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .learn-more{
+        justify-content: center;
+    }
+
+    .labels {
+        display: flex;
+        margin-top: 50px;
+        justify-content: space-between;
+    }
+
+    #firstnav {
+        display: none;
+    }
+
+    #desktop-hero{
+      display: none;
+    }
+
+    #secondnav {
+     height:100%;
+     width:0;
+     position: fixed;
+     z-index: 1;
+     top: 0;
+     right: 0;
+     overflow-x: hidden;
+     transition: 0.3s;
+     padding-top: 0;
+     background-color: white;
+     display: initial;
+    }
+
+    .logo-open-nav-icon {
+      margin-top: 15px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .open-close-nav-button{
+      position: absolute;;
+      top: 15px;
+      right: 10px;
+      font-size: 15px;
+      margin-left: 50px;
+    }
+    .open-nav-icon{
+      font-size: 20px;
+    }
+
+    .close-nav-icon{
+      font-size: 20px;
+    }
+
+    #navbarSupportedContent{
+      margin-top: 60px;
+    }
+
+    .feature-icon{
+      margin-top: 5px;
+    }
+
+    .dropdown-menu {
+      border-color: white;
+      align-items: center;
+    }
+
+    .login-mobile {
+      text-align: center;
+    }
+
+    .register-mobile{
+      text-align: center;
+    }
+
+
+
+}
+
+
+@media (min-width: 376px){
+
+  #secondnav {
+    display: none;
+  }
+
+  #mobile-hero{
+    display: none;
+  }
+
+}
